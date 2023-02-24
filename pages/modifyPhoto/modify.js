@@ -506,7 +506,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
   },
 
   /**
@@ -578,6 +577,7 @@ function loadImgOnImage(self){
     success: function (res) {
       self.oldScale = 1
       self.initRatio = res.height / self.imgViewHeight  //转换为了px 图片原始大小/显示大小
+      console.log("res.height:%d,self.imgViewHight:%d", res.height, self.imgViewHeight)
       if (self.initRatio < res.width / (750 * self.deviceRatio)) {
         self.initRatio = res.width / (750 * self.deviceRatio)
       }

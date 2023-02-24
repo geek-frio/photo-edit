@@ -1,10 +1,33 @@
- <view class="page-body-wrapper">
-  <image class="logo" src='../../image/logo.png' mode='widthFix'></image>
-  <image class="bg-img" src='../../image/background.png' mode='widthFix'></image>
-  <view class="btn-area">
-    <navigator class="btn btn1" hover-class="none" url="../modifyPhoto/modify"><text class="icon1"></text><text class="text">美图编辑</text></navigator>
-    <navigator class="btn btn2" hover-class="none" url="../spliceMenu/spliceMenu"><text class="icon2"></text><text class="text">趣味拼图</text></navigator>
-    <navigator class="btn btn3" hover-class="none" url="../emotionChoose/emotionChoose"><text class="icon3"></text><text class="text">智斗基地</text></navigator>
+<view class="container">
+  <view class="row">
+    <navigator class="col border-right border-down" hover-class="click" url="../modifyPhoto/modify">
+      <view class="center">
+      拍试卷
+      </view>
+    </navigator>
+    <view class="col border-right border-down" hover-class="click">
+      错题本
+    </view>
+    <view class="col border-down" hover-class="click">
+      题打印
+    </view>
+  </view>
+  <view class="row">
+    <view class="col border-right border-down" hover-class="click">
+    计时器
+    </view>
+    <view class="col border-right border-down" hover-class="click">
+    来一题!
+    </view>
+    <view class="col border-down" hover-class="click">
+    </view>
+  </view>
+  <view class="row">
+    <view class="col border-right" hover-class="click">
+    </view>
+    <view class="col border-right" hover-class="click">
+    </view>
+    <view class="col" hover-class="click">
+    </view>
   </view>
 </view>
-
