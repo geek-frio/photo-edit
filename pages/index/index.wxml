@@ -2,7 +2,7 @@
   <view class="row">
     <navigator class="col border-right border-down" hover-class="click" url="../modifyPhoto/modify">
       <view class="center">
-      拍试卷
+      拍题目
       </view>
     </navigator>
     <view class="col border-right border-down" hover-class="click">
@@ -20,14 +20,18 @@
     来一题!
     </view>
     <view class="col border-down" hover-class="click">
+    题分享
     </view>
   </view>
   <view class="row">
     <view class="col border-right" hover-class="click">
+    小计划
     </view>
     <view class="col border-right" hover-class="click">
+    小更新
     </view>
     <view class="col" hover-class="click">
+      更多...
     </view>
   </view>
 </view>
